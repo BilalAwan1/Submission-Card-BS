@@ -7,26 +7,34 @@
   width: 450px;
   height: 50px;
 }
-.input-color::placeholder{
-    color: #dfafab;
+.plus-icon {
+  position: relative;
+  bottom: 7px;
+  right: 7px;
 }
-.submission{
-    width: 58%;
+.input-color::placeholder {
+  color: #dfafab;
 }
-.which-award-div{
-    width: 42%;
+.submission {
+  width: 58%;
 }
-*{
+.which-award-div {
+  width: 42%;
+}
+* {
   font-family: system-ui;
 }
-.tick-provide{
+.tick-provide {
   font-size: 11px;
 }
-.checkbox-livestream{
+.checkbox-livestream {
   height: 25px;
 }
-
-.textarea{
+.checkbox-height {
+  width: 15px;
+  height: 15px;
+}
+.textarea {
   width: 450px;
   height: 73px;
   background: transparent;
@@ -35,12 +43,17 @@
   resize: none;
   color: #dfafab;
 }
-.textarea::placeholder{
+.textarea::placeholder {
   color: #dfafab;
 }
-.success-btn{
+.success-btn {
   height: 49px;
-  border-radius: none;
+  border-radius: 0px;
+}
+.submission-button{
+  border: 0px;
+  border-radius: 0px solid black;
+  font-family: system-ui;
 }
 .margin-last {
   height: 100px;
