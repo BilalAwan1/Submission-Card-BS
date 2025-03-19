@@ -9,8 +9,9 @@
 }
 .plus-icon {
   position: relative;
-  bottom: 7px;
+  bottom: 8px;
   right: 7px;
+  color: grey;
 }
 .input-color::placeholder {
   color: #dfafab;
